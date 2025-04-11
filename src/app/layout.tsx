@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
-        <div className="flex bg-[#FAFBFC]">
+        <div className="flex h-dvh bg-[#FAFBFC]">
           <Sidebar />
           <div className="h-dvh flex flex-col grow">
             <Navbar />
